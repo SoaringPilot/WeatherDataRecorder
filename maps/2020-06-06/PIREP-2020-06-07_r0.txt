@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-06-06
+User Account : T CLARK
+##################################################
+Overall Rating : 2.0
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 5500
+Cloud Honesty : NOT GREAT
+Average Thermal (knots): 0.8
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 2.8
+Max on Vario (knots): 4.0
+Overdeveloped : NO
+Wind Strength (knots): 10
+Wind Direction (deg): 317
+##################################################
+NOTES:
+Completed my silver distance! There were two layers of clouds, I only got to the lower one. Weak thermals, wind very shifty. Big clouds but not great shape. OLC gave me 119 points for the flight.
