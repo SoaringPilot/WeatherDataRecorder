@@ -1,0 +1,61 @@
+Dr Jack has fixed color maps, I think it's easier to use these. I might loose some resolution in the prediction.
+Should I use a MySQL database to store the weather information extracted from the color maps?
+
+I think something is wrong with the cookies on Dr Jack. I can't ask for an image without sending my login information
+I'm watching this youTube video which shows how to send a cookie to prove that you are logged in. https://www.youtube.com/watch?v=PpaCpudEh2o
+
+I think I've done the cookie thing correctly but I still can't get an image. I tried a different image URL and that didn't work either.
+
+I can see that I can print the header to my get request for the picture I get a PNG image when I use cookies and text when I don't.
+
+I can now get pictures from Dr Jack!
+
+I'm using this tutuorial for color detection: https://www.pyimagesearch.com/2014/08/04/opencv-python-color-detection/
+
+there are class and instance variable. The instance is "self"
+
+When accessing class variables we need to access them through the instance (using self) or through the class Class.var += 1
+    A good youtube video for this concept is here: https://www.youtube.com/watch?v=BJ-VvGyQxho
+    An instance first looks for it's own class variable before leaving it's namespace to look at the top level class.
+    Types of methods:Regular , class , static
+    Class methods can be used as an alternative constructor
+    Regular methods first pass the instance self, class methods pass the class, static methods don't pass anything
+    if you don't use the class or self variable in your method it should be static
+
+When inheriting a class all of the attributes and methods are passed down to the new class.
+
+Method resolution order. if you make a new class and dont' have __init__ python will look to the parent class
+
+print(help(Classname))
+
+if you create a class with inheritance, if you don't set any of the attributes it takes on that of the parent,
+    upon creation of the subclass, you can use the same variable name in the parent class and none of the parent class is affected.
+
+Good video for subclasses: https://www.youtube.com/watch?v=RSl87lqOXDE
+
+isinstance(class, question class), issubclass()
+
+mapConfig.txt needs more data: good/medium/bad parameter values, Forecast Name, parameter units, interest/future
+
+I created bgr and color lists in MapProperties but in the subclass PredictionMap, I cannot index those lists but I can append do them
+    it turned out that I could index them, pycharm just did not recognize that action.
+
+The fixed coloring on the CAPE map seems to vary in terms of length. Seems like an error from the Dr. Jack Website
+
+Maps that have varying scales, despite "fixed colors"
+    CAPE
+    Surface Temp
+    BL Wind - this is because there are vectors describing the wind which got on the pixel
+
+By using fixed coloring for Cu cloudbase I have resolution of 1000ft as compared to 500ft
+
+Cloud cover has weird criteria good which would need to be defined.
+
+path.isfile() is not reporting case sensitivity with .png vs .PNG, this has all come about because I want to store the cu cloudbase
+    for the non fixed color version because it has twice the resolution.
+
+When there are files with dissimilar maximum revision numbers, the program gets messed up but I fixed that now.
+
+I have a problem that when i call alert me and the program asks to check the soaring forecast for a date that doesn't exist.
+    I need to have a check, that if I have at least one active map, then I shouldn't try to read in the forecast. If I
+    have no active maps then self.max_rev will also be None
