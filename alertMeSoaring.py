@@ -443,7 +443,7 @@ def alert():
         curr_p2.send_email_alert(days[zulu.parse(zulu.now()).shift(hours=+48).weekday()] + " daily score is " + str(
             round(curr_p2.daily_score, 2)))
 
-schedule.every().day.at("13:53").do(alert)
+
 schedule.every().day.at("18:45").do(alert)
 
 while True:
