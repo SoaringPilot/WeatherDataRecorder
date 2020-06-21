@@ -208,7 +208,7 @@ class PredictionMap(MapProperties):
             try:
                 # If pixel location is stipple, then move one pixel down in y direction and get new result
                 if stipple_flag:
-                    color_result = image[location[1]+1, location[0]]
+                    color_result = image[location[1] + 1, location[0]]
 
                 value_result = self.color_list[self.bgr_list.index(color_result.tolist())]
 
@@ -453,12 +453,8 @@ def alert():
             round(curr_p2.daily_score, 2)))
 
 
-#
-# schedule.every().day.at("18:45").do(alert)
-#
-# while True:
-#     schedule.run_pending()
-#     time.sleep(1)
+schedule.every().day.at("18:45").do(alert)
 
-today = SoaringDay("2020-06-11", PSS)
-today.print_forecast_trend()
+while True:
+    schedule.run_pending()
+    time.sleep(1)
