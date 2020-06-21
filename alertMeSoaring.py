@@ -196,13 +196,22 @@ class PredictionMap(MapProperties):
 
     # Method to open specified map and get color at specified location
     def get_prediction(self, location, rev):
+        stipple_flag = 0
         if str(self.last_rev) != "None" and self.active == 1:
             image = cv2.imread(self.filename[rev])
             color_result = image[location[1], location[0]]
+            # Check for stipple color which is [0 0 0]
+            if color_result[0] == 0 and color_result[1] == 0 and color_result[2] == 0:
+                stipple_flag = 1
 
-            # Any color artifacts in maps will cause the index to fail such as stipple
+            # Any color artifacts in maps will cause the index to fail such as stipple or grey
             try:
+                # If pixel location is stipple, then move one pixel down in y direction and get new result
+                if stipple_flag:
+                    color_result = image[location[1]+1, location[0]]
+
                 value_result = self.color_list[self.bgr_list.index(color_result.tolist())]
+
                 if DEBUG:
                     print(str(value_result) + "\t" + self.units + " " + self.name)
                 return value_result
@@ -444,8 +453,12 @@ def alert():
             round(curr_p2.daily_score, 2)))
 
 
-schedule.every().day.at("18:45").do(alert)
+#
+# schedule.every().day.at("18:45").do(alert)
+#
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+today = SoaringDay("2020-06-11", PSS)
+today.print_forecast_trend()
