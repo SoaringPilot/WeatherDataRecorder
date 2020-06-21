@@ -59,3 +59,10 @@ When there are files with dissimilar maximum revision numbers, the program gets 
 I have a problem that when i call alert me and the program asks to check the soaring forecast for a date that doesn't exist.
     I need to have a check, that if I have at least one active map, then I shouldn't try to read in the forecast. If I
     have no active maps then self.max_rev will also be None
+
+There is a problem when looking at the Cumulus cloudbase. When there is an area absent of clouds the color is grey:
+    204, 204, 204, To fix this problem I added 204,204,204 and value 0 to the following maps: 11, 12
+
+There is a possibility that I could get a stipple pixel so I need to address this very low concern. Stipple is black,
+    0,0,0 so I'll check if the pixel is that color and set the stipple flag. Then in my try statement I'll move my pixel
+    by one location.
