@@ -44,7 +44,7 @@ CONFIG_FILE = "./mapConfig.txt"
 NOM = 25  # Number of Maps in configuration file
 PSS = [338, 165, "PSS"]  # Piedmont Soaring Society map pixel location
 KHBI = [364, 181, "KHBI"]  # Asheboro Airport map pixel location
-EMAIL_THRESH = -5
+EMAIL_THRESH = 3
 DEBUG = 0
 DEBUG_R = 0
 
