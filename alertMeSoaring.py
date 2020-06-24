@@ -29,6 +29,8 @@
 #           Good, medium, bad soaring parameters values
 #           Parameter units
 #
+import sys
+
 import zulu as zulu
 import os
 import os.path
@@ -44,7 +46,7 @@ CONFIG_FILE = "./mapConfig.txt"
 NOM = 25  # Number of Maps in configuration file
 PSS = [338, 165, "PSS"]  # Piedmont Soaring Society map pixel location
 KHBI = [364, 181, "KHBI"]  # Asheboro Airport map pixel location
-EMAIL_THRESH = 3
+EMAIL_THRESH = 4
 DEBUG = 0
 DEBUG_R = 0
 

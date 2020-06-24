@@ -164,7 +164,6 @@ def get_noaa_forecast():
         fn.write(forecast)
         fn.close()
 
-# schedule.every().day.at("20:11").do(get_maps)
 schedule.every().day.at("01:00").do(get_maps)
 schedule.every().day.at("08:00").do(get_maps)
 schedule.every().day.at("13:30").do(get_maps)
