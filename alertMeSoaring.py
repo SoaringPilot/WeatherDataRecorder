@@ -457,6 +457,9 @@ def alert():
 
 schedule.every().day.at("18:45").do(alert)
 
+day = SoaringDay("2020-06-24", PSS)
+day.print_forecast_trend()
+
 while True:
     schedule.run_pending()
     time.sleep(1)

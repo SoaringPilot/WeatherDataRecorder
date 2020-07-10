@@ -34,7 +34,7 @@ CONFIG_FILE = "mapConfig.txt"
 
 
 def create_urls(text_input):
-    output_url = dict() #TODO: get rid of dictionary
+    output_url = dict()  # TODO: get rid of dictionary
     url = text_input.split()[2]
     output_url[0] = url
     output_url[1] = output_url[0].split("curr")[0] + "curr+1" + output_url[0].split("curr")[1]
@@ -163,6 +163,7 @@ def get_noaa_forecast():
         fn = open(f_path + "NOAA_Soaring_Forecast.txt", "w")
         fn.write(forecast)
         fn.close()
+
 
 schedule.every().day.at("01:00").do(get_maps)
 schedule.every().day.at("08:00").do(get_maps)
