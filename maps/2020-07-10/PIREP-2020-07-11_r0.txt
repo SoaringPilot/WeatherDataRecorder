@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-07-10
+User Account : E WHITE
+##################################################
+Overall Rating : 5.0
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 4500
+Cloud Honesty : OK
+Average Thermal (knots): 2.0
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 2.0
+Max on Vario (knots): 3.0
+Overdeveloped : YES
+Wind Strength (knots): 4
+Wind Direction (deg): 315
+##################################################
+NOTES:
+Big wall of rain move in on Ed. He tookoff at 2pm and had a 40 min flight that was cut short because of approaching rain. 

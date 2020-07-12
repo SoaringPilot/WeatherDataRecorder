@@ -1,0 +1,21 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-07-11
+User Account : B HILLS
+##################################################
+Overall Rating : 7.0
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 6900
+Cloud Honesty : NOT GREAT
+Average Thermal (knots): 2.7
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 5.0
+Max on Vario (knots): 6.0
+Overdeveloped : NO
+Wind Strength (knots): 10
+Wind Direction (deg): 315
+##################################################
+NOTES:
+Ed Holland made a video for the day: https://www.youtube.com/watch?v=92vaDhKS17w
+Jake said it was a tough day and he got low 6 times
