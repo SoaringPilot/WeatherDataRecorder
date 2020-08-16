@@ -456,9 +456,9 @@ def alert():
 
 
 schedule.every().day.at("18:45").do(alert)
-day = SoaringDay("2020-07-14",PSS)
+day = SoaringDay("2020-08-18",PSS)
 day.print_forecast_trend()
-day = SoaringDay("2020-07-14", KHBI)
+day = SoaringDay("2020-08-18", KHBI)
 day.print_forecast_trend()
 
 while True:

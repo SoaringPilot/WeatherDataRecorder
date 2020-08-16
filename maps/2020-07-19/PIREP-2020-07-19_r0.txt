@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-07-19
+User Account : B HILLS
+##################################################
+Overall Rating : 6.0
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 5500
+Cloud Honesty : GOOD
+Average Thermal (knots): 2.5
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 2.0
+Max on Vario (knots): 5.0
+Overdeveloped : YES
+Wind Strength (knots): 3
+Wind Direction (deg): 285
+##################################################
+NOTES:
+not a good xc day, big shaddow almost to 43NC from big cloud from the west.

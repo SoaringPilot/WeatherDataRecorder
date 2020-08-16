@@ -141,7 +141,7 @@ day.set(str(datetime.now().date()))
 main_widgets[index_var].grid(row=row_var, column=1, columnspan=2, pady=vert_pad)
 row_var += 1
 index_var += 1
-main_widgets.append(ttk.Combobox(frame, values=["T CLARK","C COOK","B HILLS", "J ALSPAUGH", "G GARAVAGLIA","E WHITE"], width=15, textvariable=user))
+main_widgets.append(ttk.Combobox(frame, values=["T CLARK","C COOK","B HILLS", "J ALSPAUGH", "G GARAVAGLIA","E WHITE", "C WILSON"], width=15, textvariable=user))
 main_widgets[index_var].grid(row=row_var, column=1, columnspan=2, pady=vert_pad)
 main_widgets[index_var].bind("<<ComboboxSelected>>",lambda e: frame.focus())
 main_widgets[index_var].current(0)

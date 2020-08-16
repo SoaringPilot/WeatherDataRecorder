@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-08-09
+User Account : T CLARK
+##################################################
+Overall Rating : 4.1
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 3800
+Cloud Honesty : GOOD
+Average Thermal (knots): 1.4
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 3.3
+Max on Vario (knots): 2.6
+Overdeveloped : NO
+Wind Strength (knots): 5
+Wind Direction (deg): 180
+##################################################
+NOTES:
+Flew the APIS for the first time. Very thin CU's, only a few were big and they did have lift under them.

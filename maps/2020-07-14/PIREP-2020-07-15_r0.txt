@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-07-14
+User Account : J ALSPAUGH
+##################################################
+Overall Rating : 7.1
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 4500
+Cloud Honesty : GOOD
+Average Thermal (knots): 4.0
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 0.5
+Max on Vario (knots): 6.2
+Overdeveloped : NO
+Wind Strength (knots): 1
+Wind Direction (deg): 0
+##################################################
+NOTES:
+I didn't actually talk to Jake, I just looked at his 4hr OLC flight. I'm not sure of the wind speed or direction, cloud honesty or turbulance 

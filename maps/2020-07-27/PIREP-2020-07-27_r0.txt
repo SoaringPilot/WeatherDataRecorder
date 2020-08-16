@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-07-27
+User Account : B HILLS
+##################################################
+Overall Rating : 1.9
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 3000
+Cloud Honesty : NOT GREAT
+Average Thermal (knots): 2.0
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 0.5
+Max on Vario (knots): 4.6
+Overdeveloped : YES
+Wind Strength (knots): 3
+Wind Direction (deg): 0
+##################################################
+NOTES:
+overall bad day, bob had 1.5 hour flight

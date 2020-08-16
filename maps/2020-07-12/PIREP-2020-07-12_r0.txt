@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-07-12
+User Account : J ALSPAUGH
+##################################################
+Overall Rating : 2.0
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 6200
+Cloud Honesty : NOT GREAT
+Average Thermal (knots): 2.0
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 2.2
+Max on Vario (knots): 2.0
+Overdeveloped : YES
+Wind Strength (knots): 16
+Wind Direction (deg): 270
+##################################################
+NOTES:
+Very sporatic thermals, high level milky clouds.

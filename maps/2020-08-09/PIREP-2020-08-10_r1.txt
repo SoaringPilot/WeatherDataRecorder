@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-08-09
+User Account : C WILSON
+##################################################
+Overall Rating : 2.9
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 4000
+Cloud Honesty : GOOD
+Average Thermal (knots): 1.7
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 2.9
+Max on Vario (knots): 2.6
+Overdeveloped : NO
+Wind Strength (knots): 5
+Wind Direction (deg): 180
+##################################################
+NOTES:
+weak small thermals, possibly over developed south of twin lakes. Chris flew later in the day after I left. 
