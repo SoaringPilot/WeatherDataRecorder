@@ -66,3 +66,5 @@ There is a problem when looking at the Cumulus cloudbase. When there is an area 
 There is a possibility that I could get a stipple pixel so I need to address this very low concern. Stipple is black,
     0,0,0 so I'll check if the pixel is that color and set the stipple flag. Then in my try statement I'll move my pixel
     by one location.
+
+There is an error that the Dr. Jack webiste times out on the first request of wfm_woustar. I need to add a try except statement

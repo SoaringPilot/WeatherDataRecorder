@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-08-18
+User Account : B HILLS
+##################################################
+Overall Rating : 4.0
+##################################################
+Cumulus Clouds : NO
+Cumulus Cloudbase (ft MSL): 5050
+Cloud Honesty : GOOD
+Average Thermal (knots): 2.0
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 4.0
+Max on Vario (knots): 3.0
+Overdeveloped : YES
+Wind Strength (knots): 1
+Wind Direction (deg): 0
+##################################################
+NOTES:
+Overdeveloped toward swan creek, good looking clouds to the NW, blue at 43NC. Light wispy clouds at 43NC. 
