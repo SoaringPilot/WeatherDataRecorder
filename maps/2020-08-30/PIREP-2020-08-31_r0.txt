@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-08-30
+User Account : C COOK
+##################################################
+Overall Rating : 2.0
+##################################################
+Cumulus Clouds : NO
+Cumulus Cloudbase (ft MSL): 3000
+Cloud Honesty : NOT GREAT
+Average Thermal (knots): 0.1
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 0.5
+Max on Vario (knots): 1.0
+Overdeveloped : NO
+Wind Strength (knots): 4
+Wind Direction (deg): 315
+##################################################
+NOTES:
+Cu's formed to the south around 4 otherwise it was overcast. Not a great day with no lift.

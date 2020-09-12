@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-09-06
+User Account : T CLARK
+##################################################
+Overall Rating : 4.5
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 5400
+Cloud Honesty : NOT GREAT
+Average Thermal (knots): 1.0
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 3.2
+Max on Vario (knots): 3.0
+Overdeveloped : NO
+Wind Strength (knots): 5
+Wind Direction (deg): 90
+##################################################
+NOTES:
+The day shutdown around 3pm. the Cu's were very small. The good thermals were in the blue.

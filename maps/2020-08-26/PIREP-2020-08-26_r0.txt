@@ -1,0 +1,20 @@
+##################### PIREP ######################
+Location : PSS
+Day : 2020-08-26
+User Account : B HILLS
+##################################################
+Overall Rating : 3.3
+##################################################
+Cumulus Clouds : YES
+Cumulus Cloudbase (ft MSL): 4500
+Cloud Honesty : GOOD
+Average Thermal (knots): 1.3
+Thermal Turbulence : LOW
+Thermal Spacing (miles): 2.5
+Max on Vario (knots): 2.5
+Overdeveloped : YES
+Wind Strength (knots): 1
+Wind Direction (deg): 0
+##################################################
+NOTES:
+very hazy, scrappy, very few cu's. After 4pm the cu's started looking better. Overdeloped towards yadkinville. At 1pm it was blue and they started staying around on the NW. 

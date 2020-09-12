@@ -46,6 +46,7 @@ CONFIG_FILE = "./mapConfig.txt"
 NOM = 25  # Number of Maps in configuration file
 PSS = [338, 165, "PSS"]  # Piedmont Soaring Society map pixel location
 KHBI = [364, 181, "KHBI"]  # Asheboro Airport map pixel location
+KNW = [312, 149, "KNW"]     # NW of PSS same distance KHBI is SE
 EMAIL_THRESH = 4
 DEBUG = 0
 DEBUG_R = 0
@@ -456,9 +457,12 @@ def alert():
 
 
 schedule.every().day.at("18:45").do(alert)
-day = SoaringDay("2020-08-18",PSS)
+schedule.every().day.at("13:35").do(alert)
+day = SoaringDay("2020-09-06",PSS)
 day.print_forecast_trend()
-day = SoaringDay("2020-08-18", KHBI)
+day = SoaringDay("2020-09-06", KHBI)
+day.print_forecast_trend()
+day = SoaringDay("2020-09-06", KNW)
 day.print_forecast_trend()
 
 while True:

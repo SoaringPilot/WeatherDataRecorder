@@ -136,13 +136,16 @@ def get_maps():
             for i in range(range_val):
                 # time.sleep(0.5)
                 print("Getting Map: " + maps_urls[i])
-                tempMap = session.get(maps_urls[i])
-                tempMapFile = open(fn[i], "wb")
+                try:
+                    tempMap = session.get(maps_urls[i])
+                    tempMapFile = open(fn[i], "wb")
 
-                for chunk in tempMap.iter_content(chunk_size=256):
-                    if chunk:
-                        tempMapFile.write(chunk)
-                tempMapFile.close()
+                    for chunk in tempMap.iter_content(chunk_size=256):
+                        if chunk:
+                            tempMapFile.write(chunk)
+                    tempMapFile.close()
+                except:
+                    print("Failed Getting Map: " + maps_urls[i])
     f_mapConfig.close()
 
 
@@ -170,7 +173,7 @@ schedule.every().day.at("08:00").do(get_maps)
 schedule.every().day.at("13:30").do(get_maps)
 schedule.every().day.at("18:30").do(get_maps)
 
-schedule.every().day.at("13:45").do(get_noaa_forecast)
+schedule.every().day.at("13:30").do(get_noaa_forecast)
 # TODO: add user interaction for requested data pull from command window
 #   example: get just a certain map number
 
