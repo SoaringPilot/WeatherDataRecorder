@@ -173,6 +173,7 @@ schedule.every().day.at("08:00").do(get_maps)
 schedule.every().day.at("13:30").do(get_maps)
 schedule.every().day.at("18:30").do(get_maps)
 
+
 schedule.every().day.at("13:30").do(get_noaa_forecast)
 # TODO: add user interaction for requested data pull from command window
 #   example: get just a certain map number
